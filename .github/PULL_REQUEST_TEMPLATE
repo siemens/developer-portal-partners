@@ -1,0 +1,39 @@
+# Please provide information about developer documentation that is being onboarded/updated
+
+<!-- Please describe the product that you are onboarding or modifying -->
+
+- [ ] Add developer documentation
+- [ ] Update developer documentation
+
+## Add Product Documentation to Developer Portal
+
+Thank you for contributing developer documentation to Siemens Developer portal!
+
+To make sure that everything goes smooth, here is a small checklist with tasks which need to be fullfilled. You are nearly there 🎉!
+
+I can confirm that my contribution fullfils the following criteria:
+
+- [ ] I've read and understood the Contribution Guidelines
+- [ ] I understand that this project uses commitlint and [Conventional Commits](https://www.conventionalcommits.org/). Example `docs: added project xy documentation` - (hint: lower case is mandatory)
+- [ ] I understand what API cards are and how to configure them.
+- [ ] I understand that I need to provide a `maintainers.yml` file as described in `Maintainers File` section of contribution guidelines.
+- [ ] I provided the necessary contact information in `contact.md` file.
+- [ ] I provided the link to the [Xcelerator Marketplace ↗](https://xcelerator.siemens.com) or raised a request to create a product in the Xcelerator Marketplace (public documentation only).
+- [ ] I read the chapter about images in the contribution guideline
+- [ ] I've reviewed my changes locally using the docker image
+
+Thank you again for your contribution! ♥️
+
+---
+
+<!--- Feel free to provide additional context here if needed --->
+
+## Update Product Documentation on Developer Portal
+
+- [ ] I've read and understood the Contribution Guidelines
+- [ ] I understand that this project uses commitlint and [Conventional Commits](https://www.conventionalcommits.org/). Example `docs: added project xy documentation` - (hint: lower case is mandatory)
+- [ ] I've reviewed my changes locally using the docker image
+
+## 👨‍💻 Help & support
+
+<!-- If you need help with anything related to your PR please let us know in this section -->

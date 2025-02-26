@@ -1,0 +1,26 @@
+# Mac OS folder attributes
+.DS_Store
+
+# location where the web site is built
+site/
+
+.env
+
+# editor settings
+*.code-workspace
+.idea
+.vscode/
+
+# linter files
+out.json
+
+# stylesheets (created by sass compiler)
+*.css
+*.css.map
+
+# multi-repo plugin
+temp_dir
+
+# apis.md in docs
+docs/apis.md
+docs/apis.yml

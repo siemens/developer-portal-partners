@@ -1,0 +1,19 @@
+{
+    "config": {
+      "targetProject": "developer/portal",
+      "targetBranch": "main",
+      "useMr": true,
+      "mrBranch": "push-workflow-from-template-project",
+      "keepOlderFiles": true,
+      "commitMessage": "docs: automatic publishing changes for %description%"
+    },
+    "items": [
+      {
+        "description": "service name",
+        "sourceFolder": "docs/sample",
+        "targetFolder": "docs/sample",
+        "includePattern": "**/*"
+      }     
+    ]
+  }
+  

@@ -1,0 +1,49 @@
+INHERIT: mkdocs.base.yml
+site_name: developer.siemens.com
+site_description: Partner Developer Portal (Dev only)
+site_dir: public_site
+site_url: !ENV [SITE_PUBLIC_URL, https://developer.siemens.com]
+extra:
+  portal_visibility: public
+  hero_page_text: We believe digitalization is driven by developers, so we are opening Siemens Xcelerator for co-creation. Here you can build new digital solutions or enhance your existing applications with access to our APIs.
+  comments: false
+  tab_whitelist:
+    - Home
+    - Documentation
+    - APIs
+    - Resources
+    - Guidelines
+    - Community
+    - Insights
+  docs_excluded:
+    - PlantSight
+theme:
+  features:
+    - navigation.tabs
+    - openapi
+    - page.toc
+    - asyncapi
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - navigation.indexes
+  icon:
+    edit: material/pencil
+extra_javascript:
+  - assets/javascripts/custom-select.min.js
+  - assets/javascripts/card-selector.min.js
+  - assets/javascripts/documentation-page.min.js
+  - assets/javascripts/prefetcher.min.js
+  - assets/javascripts/main.min.js
+  - assets/javascripts/tag-list.min.js
+extra_css:
+  - assets/stylesheets/portal-main.css
+nav:
+  - Home: index.md
+  - Documentation: docs.md
+  - Tags: tags.md
+  - APIs: apis.md
+  - Anybotics: anybotics/
+  - Guidelines: contribution-guidelines/
+plugins:
+  exclude:

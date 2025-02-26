@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  developer-portal:
+    # TODO: replace with public dockerhub container
+    image: developer.partner
+    volumes:
+      - ./docs:/app/docs
+      - ./theme-base/main.html:/app/theme/main.html
+      - ./mkdocs-partner.yml:/app/mkdocs-develop.yml
+      - ./scripts/generate-api-cards.js:/app/generate-api-cards.js
+      - ./scripts/validate-format.js:/app/validate-format.js
+    ports:
+      - 8000:8000
+    command:  >
+      sh -c "node validate-format.js && node generate-api-cards.js &&
+        npm run lint:markdown &&
+        npm run serve:develop"

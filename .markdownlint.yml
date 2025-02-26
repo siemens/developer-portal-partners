@@ -1,0 +1,40 @@
+default: true
+ul-indent:
+  indent: 4
+  start_indented: false
+ul-style:
+  style: consistent
+line-length:
+  line_length: 400
+  tables: false
+no-inline-html:
+  allowed_elements:
+    - br
+    - kbd
+    - sub
+    - sup
+    - internal
+    - img
+    - div
+    - small
+    - a
+    - u
+    - dx-product-list
+    - dx-github-list
+code-block-style: false
+no-alt-text: false
+# Allow setting both title and h1. https://github.com/DavidAnson/markdownlint/issues/199
+single-title:
+  front_matter_title: ""
+## Allow same headings if they are in different chapters. https://github.com/DavidAnson/markdownlint/blob/main/doc/md024.md
+no-duplicate-header:
+  allow_different_nesting: true
+  siblings_only: true
+# MD051 - Link fragments should be valid
+md051: false
+# MD013 - Line length
+md013: false
+# MD024 - Multiple headings with the same content
+md024: false
+# MD055 - Table pipe style
+MD055: false

@@ -1,0 +1,12 @@
+- product: ANYbotics
+  site: external
+  operating_company: Partner
+  saas_offering: false
+  owner:
+    department:
+    person:
+  maintainer:
+    - fwu@anybotics.com
+  contribution:
+    workflow: monorepo
+  comment: External Partner

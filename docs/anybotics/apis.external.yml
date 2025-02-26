@@ -1,0 +1,10 @@
+- title: ANYmal API and SDK
+  desc: ANYbotics offers robotic solutions for automated industrial inspections. These robotic solutions perform routine condition monitoring tasks based on our legged robotic platforms, ANYmal and the Ex-certified ANYmal X.
+  link: anybotics/overview.html
+  tags:
+    - Partner
+  productline: ANYbotics
+  vertical:
+    - Manufacturing
+  resourcetype:
+    - gRPC

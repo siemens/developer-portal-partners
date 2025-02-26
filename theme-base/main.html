@@ -1,0 +1,17 @@
+{% extends "base-siemens.html" %}
+
+{% block extrahead %}
+<!-- Comms Cloud Analytics Tag Manager -->
+
+{% if config.extra.is_ci %}
+<meta
+  name="is-ci"
+  content="true"
+>
+{% endif %}
+
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+{% endblock %}
