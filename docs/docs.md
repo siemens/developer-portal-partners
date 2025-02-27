@@ -11,4 +11,4 @@ partners:
 
 # Product Documentation
 
-Browse the developer documentation below or take a look at the complete Siemens [API Catalogue](apis.md).
+Browse the [developer documentation](https://developer.siemens.com/docs.html) or take a look at the complete Siemens [API Catalogue](https://developer.siemens.com/apis.html).
