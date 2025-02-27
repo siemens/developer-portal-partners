@@ -13,7 +13,7 @@ tags:
 
 * One stop shop for development of/ with siemens products:
     * Findability & Searchability
-    * Credibility (Quality Control  “Made by Siemens”)
+    * Credibility (Quality Control “Made by Siemens”)
     * Single source of truth
 * Xcelerator Ecosystem Benefits:
     * Design support (Xcelerator Branding, UX, Trainings)

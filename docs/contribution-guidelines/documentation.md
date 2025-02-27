@@ -1,28 +1,21 @@
----
-tags:
-  - Guidelines / Contribution
-search:
-  boost: 2.0
----
-
 # Contributing to Developer Portal
 
-The Developer Portal uses Markdown and [MkDocs](https://mkdocs.org), which are used in almost all documentation projects across Siemens.
+The Developer Portal uses Markdown and [MkDocs](https://www.mkdocs.org/), which are used in almost all documentation projects across Siemens.
 
-!!!info "For the First Time Contributors"
-     If you're looking for a comprehensive guide on how to use markdown, you can find a [helpful overview of its available elements](https://squidfunk.github.io/mkdocs-material/reference/).
-     Keep in mind that "Insiders" features are not supported.
+For the First Time Contributors:
+If you're looking for a comprehensive guide on how to use markdown, you can find a [helpful overview of its available elements](https://squidfunk.github.io/mkdocs-material/reference/).
+Keep in mind that "Insiders" features are not supported.
 
-     **Please refer to [faq.md](faq.md) for FAQs**
+Please refer to [faq.md](./faq.md) for FAQs
 
 ## Developer Documentation
 
 The `docs` in Developer Portal folder is the home for the product documentation. Every product has a subfolder with respective product documentation.
 
-!!! info "For the First Time Contributors"
+Note:
     If you are adding product documentation for the first time, please create a new folder under the `docs` folder and name it in *lower case* after your product with the prefix `ext`. Please don't use blanks in folder names, use dashes `-` instead.
 
-    There is an example how to structure your documentation in the `docs/ext-anybotics` folder.
+There is an example how to structure your documentation in the `docs/ext-anybotics` folder.
 
 Following list specifies the files and changes that are needed to contribute to developer portal :
 
@@ -36,10 +29,11 @@ Following list specifies the files and changes that are needed to contribute to 
 
 ## Structure for Developer Documentation
 
-!!! info "For the First Time Contributors"
-    - A single API product can have multiple APIs.
-    - If there is only one API in the product you can skip the API/Service Overview page. See example in `docs/ext-anybotics`.
-    - Please describe authentication and authorization concepts in getting started guide!
+API Product
+
+* A single API product can have multiple APIs.
+* If there is only one API in the product you can skip the API/Service Overview page. See example in `docs/ext-anybotics`.
+* Please describe authentication and authorization concepts in getting started guide!
 
 We recommend the following structure to provide documentation:
 

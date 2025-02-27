@@ -13,7 +13,7 @@ The project contains a docker image that provides a "lightweight" version of Dev
 
 ## Steps for contribution
 
-1. Familiarize yourself with our [contribution guidelines](./documentation.md#contributing-to-developer-portal)
+1. Familiarize yourself with our [Contribution guidelines](./documentation.md#contributing-to-developer-portal)
 2. Fork the GitHub repository and clone the project to your local machine
 3. Prepare documentation according to [How to structure Developer Documentation](./documentation.md#structure-for-developer-documentation)
 4. Create a subfolder in '/docs' folder and add your documentation to the created sub folder

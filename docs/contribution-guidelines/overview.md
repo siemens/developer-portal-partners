@@ -1,8 +1,3 @@
----
-tags:
-  - Guidelines / Contribution
----
-
 # Overview
 
 ## What is Siemens Xcelerator Developer Portal
