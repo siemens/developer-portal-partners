@@ -1,8 +1,8 @@
-# Developer Portal - Documentation onboarding for Partners
+# Siemens Xcelerator Developer Portal - Documentation onboarding for Partners
 
-This project can be used to provide developer documentation to [Developer Portal](https://developer.siemens.com/).
+This project can be used to provide developer documentation to [Siemens Xcelerator Developer Portal](https://developer.siemens.com/).
 
-The project contains a docker image that provides a "lightweight" version of Developer Portal. You can use this docker image to preview you documentation and get a sense of how the documentation would look like once it is in the Developer Portal
+The project contains a docker image that provides a "lightweight" version of Siemens Xcelerator Developer Portal. You can use this docker image to preview you documentation and get a sense of how the documentation would look like once it is in the Developer Portal
 
 ## Documentation
 
