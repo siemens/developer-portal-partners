@@ -1,8 +1,7 @@
 version: "3.8"
 services:
   developer-portal:
-    # TODO: replace with public dockerhub container
-    image: developer.partner
+    image: ghcr.io/siemens/developer-portal-partners:latest
     volumes:
       - ./docs:/app/docs
       - ./theme-base/main.html:/app/theme/main.html
