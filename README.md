@@ -51,15 +51,17 @@ We recommend the following structure to provide documentation:
 
 ## Building locally using docker
 
-- Run `docker-compose up -d` to see a preview of the documentation
+- Run `docker-compose up -d` to see a preview of the documentation.
 
 ## Development
 
 - To immediately apply any markdown changes, hot reload ensures instant reloading.
 - For any file changes, `docker-compose restart` needs to be run for rebuilding docker with latest changes.
 
-Refer to [Documentation](./docs/contribution-guidelines/documentation.md) for any further information
+Refer to [Documentation](./docs/contribution-guidelines/documentation.md) for any further information.
 
-## 📝 License
+## License
+
+The project is licensed under the [Siemens Xcelerator Seller Contribution License Agreement](./LICENSE.md).
 
 Copyright © 2025 [Siemens AG](https://www.siemens.com/).
