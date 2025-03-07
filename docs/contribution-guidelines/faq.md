@@ -12,7 +12,7 @@ tags:
 ### Developer Benefits
 
 * One stop shop for development of/ with siemens products:
-    * Findability & Searchability
+    * Discoverability & Searchability
     * Credibility (Quality Control “Made by Siemens”)
     * Single source of truth
 * Xcelerator Ecosystem Benefits:

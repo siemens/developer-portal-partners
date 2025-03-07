@@ -7,13 +7,13 @@ services:
       - ./config:/app/config
       - ./theme-base/main.html:/app/theme/main.html
       - ./mkdocs-partner.yml:/app/mkdocs-develop.yml
-      - ./scripts/copy-cspell.js:/app/copy-cspell.js
+      - ./scripts/copy-cspell.mjs:/app/copy-cspell.mjs
       - ./scripts/generate-api-cards.js:/app/generate-api-cards.js
       - ./scripts/validate-format.js:/app/validate-format.js
     ports:
       - 8000:8000
     command:  >
-      sh -c "node copy-cspell.js && node validate-format.js && node generate-api-cards.js &&
+      sh -c "node --experimental-modules  copy-cspell.mjs && node validate-format.js && node generate-api-cards.js &&
         npm run lint:markdown &&
         npm run lint:run-cspell
         npm run serve:develop"
