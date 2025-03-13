@@ -1,7 +1,8 @@
 version: "3.8"
-services:
+services: 
   developer-portal:
     image: ghcr.io/siemens/developer-portal-partners:latest
+    platform: linux/x86_64
     volumes:
       - ./docs:/app/docs
       - ./config:/app/config
@@ -13,7 +14,7 @@ services:
     ports:
       - 8000:8000
     command:  >
-      sh -c "node --experimental-modules  copy-cspell.mjs && node validate-format.js && node generate-api-cards.js &&
+      sh -c "node --experimental-modules copy-cspell.mjs && node validate-format.js && node generate-api-cards.js &&
         npm run lint:markdown &&
-        npm run lint:run-cspell
+        npm run lint:run-cspell &&
         npm run serve:develop"
