@@ -2,6 +2,8 @@
 
 This project can be used to provide developer documentation to [Siemens Xcelerator Developer Portal](https://developer.siemens.com/).
 
+(Temporary staging deployment of Siemens External partners [Staging Partner Portal](https://siemens.github.io/developer-portal-partners/))
+
 The project contains a docker image that provides a "lightweight" version of Siemens Xcelerator Developer Portal. You can use this docker image to preview you documentation and get a sense of how the documentation would look like once it is in the Developer Portal
 
 ## Documentation
