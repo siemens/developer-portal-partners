@@ -19,7 +19,7 @@ The developer portal is the central hub for developers to access Siemens Xcelera
 5. Create API card according to [How to create an API card](./docs/contribution-guidelines/documentation.md#api-cards)
 6. Create `Maintainers file` and empty `_public_signed_off`. An example can be found in folder `./docs/anybotics`. Add product and API card information to `mkdocs-public.yml` and `apis.external.yml` respectively .
 7. Adapt and configure the documentation with [Navigation Configuration](./docs/contribution-guidelines/documentation.md#navigation-configuration)
-8. To preview your documentation, run the Docker image by executing `docker-compose up -d`
+8. To preview your documentation, run the Docker image by executing `docker-compose up run-portal -d`
 9. Once the documentation is ready to be published, create a  pull request
 10. Maintainers of the developer portal will review the request and merge
 
@@ -51,7 +51,7 @@ We recommend the following structure to provide documentation:
 
 ## Building locally using docker
 
-- Run `docker-compose up -d` to see a preview of the documentation.
+- Run `docker-compose up run-portal -d` to see a preview of the documentation.
 
 ## Development
 
