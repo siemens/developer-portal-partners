@@ -24,3 +24,6 @@ temp_dir
 # apis.md in docs
 docs/apis.md
 docs/apis.yml
+
+#output folder
+public_site/

@@ -1,6 +1,6 @@
 version: "3.8"
 services: 
-  developer-portal:
+  build-portal: &build
     image: ghcr.io/siemens/developer-portal-partners:latest
     platform: linux/x86_64
     volumes:
@@ -11,6 +11,14 @@ services:
       - ./scripts/copy-cspell.mjs:/app/copy-cspell.mjs
       - ./scripts/generate-api-cards.js:/app/generate-api-cards.js
       - ./scripts/validate-format.js:/app/validate-format.js
+      - ./public_site:/app/public_site
+    command: >
+      sh -c "node --experimental-modules copy-cspell.mjs && node validate-format.js && node generate-api-cards.js &&
+        npm run lint:markdown &&
+        npm run lint:run-cspell &&
+        poetry run mkdocs build --strict --config-file mkdocs-develop.yml"
+  run-portal:
+    <<: *build
     ports:
       - 8000:8000
     command:  >
@@ -18,3 +26,11 @@ services:
         npm run lint:markdown &&
         npm run lint:run-cspell &&
         npm run serve:develop"
+
+volumes:
+  public_site:
+    driver: local # Define the driver and options under the volume name
+    driver_opts:
+      type: none
+      device: public_site
+      o: bind
